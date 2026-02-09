@@ -1,4 +1,4 @@
-An offline pvp chess app written in python (pygame) that lacks checks, checkmates, draws and promotion.
+An offline pvp chess app written in pygame that lacks checks, checkmates, draws and promotion.
 
 left click to select and move.
 
