@@ -24,7 +24,7 @@ for rect in range(64):
     rects.append(pygame.Rect(rect%8*square_length,height-square_length-(rect//8*square_length),square_length,square_length))
 
 
-black_king = pygame.transform.smoothscale_by(pygame.image.load(os.path.join('assets', 'black_king.png')).convert_alpha(),scale_factor*0.25)
+black_king = pygame.transform.smoothscale_by(pygame.image.load(os.path.join('assets\\black_king.png')).convert_alpha(),scale_factor*0.25)
 white_king = pygame.transform.smoothscale_by(pygame.image.load(os.path.join('assets', 'white_king.png')).convert_alpha(),scale_factor*0.25)
 black_pawn = pygame.transform.smoothscale_by(pygame.image.load(os.path.join('assets', 'black_pawn.png')).convert_alpha(),scale_factor*0.25)
 white_pawn = pygame.transform.smoothscale_by(pygame.image.load(os.path.join('assets', 'white_pawn.png')).convert_alpha(),scale_factor*0.25)
